@@ -15,23 +15,13 @@
     <servers>
         <server>
             <id>Exchange2</id>
-            <username>devops_user_ss</username>
-            <password>PLEASEUPDATETHEPASSWORD</password>
+            <username>dev_ops_service_user</username>
+            <password>D3vOpSPwD2.0</password>
         </server>
 	<server>
             <id>MuleRepository</id>
             <username>optus.nexus</username>
             <password>NPeje2RZ9mPYJAJN</password>
-        </server>
-     	<server>
-            <id>nexus-snapshots</id>
-            <username>deployment</username>
-            <password>PLEASEUPDATETHEPASSWORD</password>
-        </server>
-	<server>
-            <id>nexus-release</id>
-            <username>deployment</username>
-            <password>PLEASEUPDATETHEPASSWORD</password>
         </server>
     </servers>
     <mirrors></mirrors>
@@ -42,7 +32,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <anypoint.org.id>1d8bb6c7-6e33-4ab6-91f4-c0124923ea98</anypoint.org.id>
+                <anypoint.org.id>2d9f6893-e89a-4df7-a422-bb213e4545f0</anypoint.org.id>
                 <anypoint.exchange.repository>https://maven.anypoint.mulesoft.com/api/v1/organizations/${anypoint.org.id}/maven</anypoint.exchange.repository>
             </properties>
             <repositories>
